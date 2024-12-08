@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,400&family=Handjet&family=Libre+Baskerville:ital,wght@0,700;1,400&family=Oleo+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background: url(bg.jpg) no-repeat  center/cover fixed;
+}
+
+.container2 {
+    font-size: 3.5rem;
+    color: white;
+   
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    text-transform: capitalize;
+    font-family: 'Borel', cursive;
+}
+
+.container {
+    /* background-color: #998c8c30; */
+    position: absolute;
+    top: 127px;
+    left: 36px;
+    color: #fff;
+}
+
+.container>h1 {
+    font-size: 39px;
+    border-bottom: 3px solid red;
+    margin-bottom: 30px;
+    padding: 8px;
+    padding-left: 40px;
+    
+}
+
+.box {}
+
+.box>input {
+    width: 100%;
+    outline: none;
+    width: 75%;
+    margin: 2px 11px;
+    font-size: 1.16rem;
+    padding: 4px 83px;
+    margin-bottom: 17px;
+    border-radius: 5px;
+    background-color: #f7e2e291;
+    color: black;
+    border-bottom: 2px solid red;
+}
+
+.btn {
+    margin: 38px 149px;
+    margin-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border-bottom: 2px solid red;
+    background-color: #a291a1d1;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #a978786d;
+}
